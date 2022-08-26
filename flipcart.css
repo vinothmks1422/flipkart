@@ -1,0 +1,293 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.body {
+    background-color: rgb(241, 243, 246);
+}
+
+/* header part */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(40, 116, 240);
+    padding: 10px 124px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+.header .logo img {
+    width: 75px;
+    height: 20.11px;
+}
+
+.header .logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.header .logo a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.header .logo a:hover {
+    text-decoration: underline;
+}
+
+.header .logo a span {
+    color: rgb(227, 214, 31);
+}
+
+.header .logo a img {
+    width: 10px;
+    height: 10px;
+}
+
+.header .input input {
+    width: 443.69px;
+    height: 36px;
+    padding-left: 15px;
+    border: none;
+    outline: none;
+}
+
+.header .login {
+    text-decoration: none;
+    border: 1px solid #dbdbdb;
+    background-color: rgb(255, 255, 255);
+    color: #2874f0;
+    height: 32px;
+    padding: 5px 40px;
+    font-weight: 500;
+    border-radius: 2px;
+}
+
+.header .input {
+    position: relative;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.header .input i {
+    font-size: 20px;
+    color: rgb(40, 116, 240);
+    position: absolute;
+    top: 9px;
+    right: 10px;
+
+}
+
+.header .input input::placeholder {
+    font-size: 14px;
+    color: rgb(138, 138, 138);
+    font-weight: 500;
+}
+
+.header .cart {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* body part */
+
+main .carts {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    margin-top: 3.5rem;
+
+}
+
+main .carts img {
+    width: 64px;
+    height: 64px;
+}
+
+main .carts a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin: auto;
+    text-transform: capitalize;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 8px;
+    color: #212121;
+    line-height: 1.4;
+}
+
+main .carts:first-child {
+    padding-left: 22px;
+}
+
+main .carts:last-child {
+    padding-right: 24px;
+}
+
+main .offer {
+    margin: 10px;
+}
+
+main .offer img {
+    width: 100%;
+    height: 280px;
+}
+
+.electronics {
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.electronics .top {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 2px solid rgb(229, 229, 229);
+}
+
+.electronics .top .Left h2 {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.electronics .top .Left p {
+    font-size: 14px;
+    color: rgb(178, 178, 178);
+    font-weight: 400;
+}
+
+.electronics .top .Right a {
+    color: #fff;
+    background-color: #2874f0;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.electronics .bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.electronics .bottom a img {
+    width: 150px;
+    height: 117px;
+    margin: 16.5px 0px;
+}
+
+.electronics .bottom a img:hover {
+    transform: scale(1.05);
+}
+
+.electronics .bottom a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.electronics .bottom a .product {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 15px;
+    color: black;
+}
+
+.electronics .bottom a .price {
+    color: rgb(56, 142, 60);
+    padding-top: 8px;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.electronics .bottom a .company_name {
+    color: rgb(140, 140, 140);
+    font-size: 14px;
+}
+
+/* footer part */
+
+footer {
+    background-color: rgb(23,35,55);
+}
+.top {
+    width: 100%;
+    padding: 2rem 3rem;
+    border-bottom: 1px solid rgb(69,77,94);
+}
+
+.top .left {
+    width: 60%;
+    justify-content: space-around;
+}
+
+.top .left section nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.top .left section nav a, .top .right section address {
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 2;
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: left;
+}
+.top .right section address {
+    line-height: 1.6;
+}
+.top .left section h3, .top .right section h3 {
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+.top .right {
+    width: 40%;
+    justify-content: space-between;
+    border-left: 1px solid rgb(69,77,94);
+}
+.top .right section {
+    padding: 0 2rem;
+}
+
+.bottom {
+    justify-content: space-around;
+    padding: 2rem 3rem;
+}
+.bottom a, .bottom span {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.bottom a i {
+    padding-right: 5px;
+    color: rgb(255,188,0);
+}
